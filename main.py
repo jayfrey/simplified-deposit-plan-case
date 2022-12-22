@@ -19,9 +19,9 @@ deposit_plans = [
         "high_risk": 0,
         "retirement": 100,
     },
-]  # 10000 900
+]  # 10000 600
 
-fund_deposits = [10500, 100, 100, 200]  # 10900 Total
+fund_deposits = [10500, 100]  # 10600 Total
 
 print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
 
