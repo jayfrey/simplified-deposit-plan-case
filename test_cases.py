@@ -36,8 +36,8 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],
-    [  # 10050 550
+    ],  # 10050 550
+    [
         {
             "type": DepositPlanTypes.ONE_TIME,
             "high_risk": 10000,
@@ -48,8 +48,8 @@ deposit_plans_list = [
             "high_risk": 0,
             "retirement": 0,
         },
-    ],
-    [  # 10050 550
+    ],  # 10050 550
+    [
         {
             "type": DepositPlanTypes.ONE_TIME,
             "high_risk": 0,
@@ -60,8 +60,8 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],
-    [  # 5300 5300
+    ],  # 5300 5300
+    [
         {
             "type": DepositPlanTypes.ONE_TIME,
             "high_risk": 10000,
@@ -72,8 +72,8 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],
-    [  # 10500 100
+    ],  # 10500 100
+    [
         {
             "type": DepositPlanTypes.ONE_TIME,
             "high_risk": 0,
@@ -84,8 +84,8 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],
-    [  # 100 10500
+    ],  # 100 10500
+    [
         {
             "type": DepositPlanTypes.ONE_TIME,
             "high_risk": 0,
