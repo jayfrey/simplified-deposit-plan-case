@@ -23,13 +23,13 @@ deposit_plans = [
 
 fund_deposits = [10500, 100]  # 10600 Total
 
-# print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
+print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
 
 
-for deposit_plans in deposit_plans_list:
-    # Reset customer portfolios
-    customer_portfolios = {
-        "high_risk": 0,
-        "retirement": 0,
-    }
-    print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
+# for deposit_plans in deposit_plans_list:
+#     # Reset customer portfolios
+#     customer_portfolios = {
+#         "high_risk": 0,
+#         "retirement": 0,
+#     }
+#     print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
