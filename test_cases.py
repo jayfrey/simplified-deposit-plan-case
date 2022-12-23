@@ -72,7 +72,7 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],  # 10500 100
+    ],  # 10300 300
     [
         {
             "type": DepositPlanTypes.ONE_TIME,
@@ -84,7 +84,7 @@ deposit_plans_list = [
             "high_risk": 100,
             "retirement": 100,
         },
-    ],  # 100 10500
+    ],  # 300 10300
     [
         {
             "type": DepositPlanTypes.ONE_TIME,
