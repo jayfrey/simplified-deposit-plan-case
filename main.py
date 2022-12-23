@@ -22,6 +22,7 @@ deposit_plans = [
 ]  # 10000 600
 
 fund_deposits = [10500, 100]  # 10600 Total
+# fund_deposits = [100, 100, 1000, 1000, 10000, 10000]  # 22200 Total
 
 print(deposit_plan(deposit_plans, fund_deposits, customer_portfolios))
 

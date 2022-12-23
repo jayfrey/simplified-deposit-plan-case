@@ -97,4 +97,28 @@ deposit_plans_list = [
             "retirement": 200,
         },
     ],  # 5300 5300
+    [
+        {
+            "type": DepositPlanTypes.ONE_TIME,
+            "high_risk": 0,
+            "retirement": 10000,
+        },
+        {
+            "type": DepositPlanTypes.MONTHLY,
+            "high_risk": 0,
+            "retirement": 100,
+        },
+    ],  # 0 10600
+    [
+        {
+            "type": DepositPlanTypes.ONE_TIME,
+            "high_risk": 0,
+            "retirement": 10000,
+        },
+        {
+            "type": DepositPlanTypes.MONTHLY,
+            "high_risk": 100,
+            "retirement": 0,
+        },
+    ],  # 600 10000
 ]
