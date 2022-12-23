@@ -20,8 +20,7 @@ def deposit_plan(deposit_plans, fund_deposits, customer_portfolios):
             # print(f"total_fund_deposits: {total_fund_deposits}")
 
             total = 0
-            check_high_risk_based_on_deposit_plan = True
-            check_retirement_based_on_deposit_plan = True
+            check_limit_based_on_deposit_plan = True
 
             if high_risk_full or retirement_full:
                 step = 1
@@ -34,8 +33,7 @@ def deposit_plan(deposit_plans, fund_deposits, customer_portfolios):
                 step = 2
 
             if deposit_plan["type"] == DepositPlanTypes.MONTHLY:
-                check_high_risk_based_on_deposit_plan = False
-                check_retirement_based_on_deposit_plan = False
+                check_limit_based_on_deposit_plan = False
 
             # print(f"step: {step}")
             # print(f"deposit_plan[high_risk]: {deposit_plan['high_risk']}")
@@ -45,7 +43,7 @@ def deposit_plan(deposit_plans, fund_deposits, customer_portfolios):
                 if not high_risk_full:
                     customer_portfolios["high_risk"] += 1
                     total += 1
-                    if check_high_risk_based_on_deposit_plan:
+                    if check_limit_based_on_deposit_plan:
                         if (
                             customer_portfolios["high_risk"]
                             == deposit_plan["high_risk"]
@@ -55,7 +53,7 @@ def deposit_plan(deposit_plans, fund_deposits, customer_portfolios):
                 if not retirement_full:
                     customer_portfolios["retirement"] += 1
                     total += 1
-                    if check_retirement_based_on_deposit_plan:
+                    if check_limit_based_on_deposit_plan:
                         if (
                             customer_portfolios["retirement"]
                             == deposit_plan["retirement"]
